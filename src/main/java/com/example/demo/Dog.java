@@ -12,8 +12,6 @@ import javax.validation.constraints.Size;
 public class Dog {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-
-    @Size(min=3, max=20)
     private long id;
 
     @NotNull
